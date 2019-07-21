@@ -42,7 +42,7 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl font-sans`};
 `
 
 const AboutDesc = styled.p`
@@ -65,7 +65,7 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Jimmy Cook.
         </BigTitle>
-        <Subtitle>I create software for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm a software developer who builds high quality mobile apps with React Native.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -96,13 +96,16 @@ const Index = () => (
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
-          <AboutSub>I'm a software developer with a love for all things JavaScript. React Native</AboutSub>
+          <Avatar src={avatar} alt="Jimmy Cook" />
+          <AboutSub>I'm a software developer with a love for all things JavaScript.</AboutSub>
         </AboutHero>
         <AboutDesc>
-          Prior to teaching myself to create software, I spent over 4 years as a professional online poker poker player.
-          In-between poker and learning to code I spent a couple years working as a contractor in Afghanistan including
-          on the Blast Gauge DARPA program.
+          Although I'm mostly working in React Native these days you might catch me writing server side code in Node.js or even just vanilla JavaScript.
+        </AboutDesc>
+        <AboutDesc>
+          Prior to teaching myself to write code, I spent over 4 years as a professional online poker poker player.
+          In-between poker and becoming a software developer I spent a couple years working as a contractor in Afghanistan including
+          on the DARPA Blast Gauge program.
         </AboutDesc>
       </About>
       <Contact offset={4}>

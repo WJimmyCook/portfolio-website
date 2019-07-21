@@ -118,9 +118,9 @@ module.exports = {
 5. You can also place the icons somewhere else on the page, modify their animation and hide them on smaller screens:
 
 ```JSX
-  <SVG icon="triangle" hideMobile width={48} stroke={colors.orange} left="10%" top="20%" />
+  <SVG icon="react" hideMobile width={48} stroke={colors.orange} left="10%" top="20%" />
   <SVG icon="hexa" width={48} stroke={colors.red} left="60%" top="70%" />
-  <SVG icon="box" width={6} fill={colors['grey-darker']} left="60%" top="15%" />
+  <SVG icon="javascript" width={6} fill={colors['grey-darker']} left="60%" top="15%" />
 ```
 
 - For `icon`, you have the options: `triangle, circle, arrowUp, upDown, box, hexa, cross`
